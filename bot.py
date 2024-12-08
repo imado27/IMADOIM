@@ -45,7 +45,7 @@ def send_message(token, chat_id, message):
 
 # إعداد البوت
 def main():
-    updater = Updater("7672599367:AAHH6rZbSHyOhkhOtNEM90AZA1TXrhAKJb4", use_context=True)
+    updater = Updater("7547307253:AAEvTXqkqoLaarnFFyYZr8rL8luVHQOTH1s", use_context=True)
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
